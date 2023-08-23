@@ -18,6 +18,7 @@ const countLetters = function(string) {
   return answer;
 };
 
+console.log(countLetters("kraken"));
 const result = countLetters("hello");
 assertEqual(result["h"], 1);
 assertEqual(result["l"], 2);
