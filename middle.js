@@ -1,4 +1,4 @@
-const eqArrays = function(arrayOne, arrayTwo) {
+/*const eqArrays = function(arrayOne, arrayTwo) {
   if (arrayOne.length === arrayTwo.length) {
     for (let i = 0; i < arrayOne.length; i++) {
       if (arrayOne[i] !== arrayTwo[i]) {
@@ -17,7 +17,8 @@ const assertArraysEqual = function(actual, expected) {
   } else {
     console.log(`🙁Assertion Failed: ${actual} !== ${expected}`);
   }
-};
+};*/
+
 
 
 const middle = function(array) {
@@ -38,8 +39,8 @@ const middle = function(array) {
   } 
 };
 
+module.exports = middle;
 
-
-assertArraysEqual(middle([1, 2, 3, 4, 5]), [3]);
-assertArraysEqual(middle([1, 2, 3, 4]), [2, 3]);
-assertArraysEqual(middle([1, 2]), []);
+//assertArraysEqual(middle([1, 2, 3, 4, 5]), [3]);
+//assertArraysEqual(middle([1, 2, 3, 4]), [2, 3]);
+//assertArraysEqual(middle([1, 2]), []);
