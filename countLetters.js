@@ -22,3 +22,5 @@ console.log(countLetters("kraken"));
 const result = countLetters("hello");
 assertEqual(result["h"], 1);
 assertEqual(result["l"], 2);
+
+module.exports = countLetters;
